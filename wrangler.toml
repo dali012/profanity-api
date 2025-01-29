@@ -1,4 +1,11 @@
 name = "profanity-api"
 compatibility_date = "2024-01-01"
-
 main = "./index.ts" 
+
+routes = [
+  { pattern = "profanity.dali012.eu.org", custom_domain = true }
+]
+
+[observability.logs]
+enabled = true
+
